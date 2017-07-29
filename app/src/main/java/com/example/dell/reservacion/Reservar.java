@@ -27,7 +27,5 @@ public class Reservar extends AppCompatActivity {
         String datee = (DateFormat.format("dd-MM-yyyy hh:mm:ss", new java.util.Date()).toString());
         inicio.setText(datee);
 
-
-
     }
 }

@@ -13,7 +13,7 @@ import java.util.List;
 public class Mapa extends AppCompatActivity {
 
     private List<Ticket> ticketdiario;
-    private EditText et1, et2;
+
 
 
 

@@ -11,17 +11,15 @@ public class Ticket {
 
     private String cliente;
     private int numeroestacionamiento;
-    private Date inicio, fin;
-    private float costo;
+    private String inicio, fin;
 
-    public Ticket(String cliente, int numeroestacionamiento, Date inicio, Date fin, float costo) {
+
+    public Ticket(String cliente, int numeroestacionamiento, String inicio, String fin) {
         this.cliente = cliente;
         this.numeroestacionamiento = numeroestacionamiento;
         this.inicio = inicio;
         this.fin = fin;
-        this.costo = costo;
     }
-
 
     public String getCliente() {
 
@@ -32,17 +30,15 @@ public class Ticket {
         return numeroestacionamiento;
     }
 
-    public Date getInicio() {
+    public String getInicio() {
         return inicio;
     }
 
-    public Date getFin() {
+    public String getFin() {
         return fin;
     }
 
-    public float getCosto() {
-        return costo;
-    }
+
 
     public void setCliente(String cliente) {
         this.cliente = cliente;
@@ -52,15 +48,13 @@ public class Ticket {
         this.numeroestacionamiento = numeroestacionamiento;
     }
 
-    public void setInicio(Date inicio) {
+    public void setInicio(String inicio) {
         this.inicio = inicio;
     }
 
-    public void setFin(Date fin) {
+    public void setFin(String fin) {
         this.fin = fin;
     }
 
-    public void setCosto(float costo) {
-        this.costo = costo;
-    }
+
 }
